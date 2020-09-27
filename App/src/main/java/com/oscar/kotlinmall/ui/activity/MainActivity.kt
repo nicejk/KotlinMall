@@ -1,10 +1,10 @@
-package com.oscar.kotlinmall
+package com.oscar.kotlinmall.ui.activity
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
+import com.oscar.kotlinmall.R
 
 class MainActivity : AppCompatActivity() {
-    private var name: String? = null
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
