@@ -32,5 +32,11 @@ dependencies {
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'androidx.test.ext:junit:1.1.2'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
-
+    // Anko Commons
+    api "org.jetbrains.anko:anko-commons:$anko_version"
+    // RxKotlin and RxAndroid
+    api "io.reactivex:rxkotlin:$rx_kotlin_version"
+    api "io.reactivex:rxandroid:${rx_android_version}"
+    //Glide
+    api "com.github.bumptech.glide:glide:$glide_version"
 }

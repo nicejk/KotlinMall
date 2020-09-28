@@ -3,7 +3,7 @@
     package="com.oscar.usercenter">
 
     <application>
-        <activity android:name=".ui.RegisterActivity"></activity>
+        <activity android:name=".ui.RegisterActivity" />
     </application>
 
 </manifest>
